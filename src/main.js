@@ -15,13 +15,25 @@ buttonShowCharacters.addEventListener('click', () => {
         listOfCharacters.map(x => {
             return `
         <li class="liItem">
+<<<<<<< HEAD
             <img class="imgRaM" src="${x.image}">
             <div class="charData">
+=======
+
+            <img class="imgRaM" src="${x.image}">
+            <div class="charData">
+
+>>>>>>> 3e426fa86a4aef4005b2428ee872e1f668e5fd5c
                 Nombre: ${x.name}
                 Genero: ${x.gender}
                 Estado: ${x.status} 
                 Origen: ${x.location.name}
+<<<<<<< HEAD
             </div>    
+=======
+
+             </div>    
+>>>>>>> 3e426fa86a4aef4005b2428ee872e1f668e5fd5c
         </li>
         `;
         }).join('');
@@ -607,20 +619,32 @@ const buttonSeasons = document.getElementById('seasons');
         document.getElementById('infoSeason3').style.display = 'none';
     });
 
+<<<<<<< HEAD
     const buttonSeason2 = document.getElementById('buttonSeason2');
+=======
+const buttonSeason2 = document.getElementById('buttonSeason2');
+>>>>>>> 3e426fa86a4aef4005b2428ee872e1f668e5fd5c
     buttonSeason2.addEventListener('click', () =>{
         document.getElementById('infoSeason1').style.display = 'none';
         document.getElementById('infoSeason2').style.display = 'block';
         document.getElementById('infoSeason3').style.display = 'none';
     });
 
+<<<<<<< HEAD
     const buttonSeason3 = document.getElementById('buttonSeason3');
+=======
+const buttonSeason3 = document.getElementById('buttonSeason3');
+>>>>>>> 3e426fa86a4aef4005b2428ee872e1f668e5fd5c
     buttonSeason3.addEventListener('click', () =>{
         document.getElementById('infoSeason1').style.display = 'none';
         document.getElementById('infoSeason2').style.display = 'none';
         document.getElementById('infoSeason3').style.display = 'block';
     });
     
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3e426fa86a4aef4005b2428ee872e1f668e5fd5c
 const pushlogo = document.getElementById('logo');
 pushlogo.addEventListener('click', () => {
     location.reload();

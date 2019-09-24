@@ -90,7 +90,12 @@ header nav ul{
     
 }
 
+<<<<<<< HEAD
 .orden, .stylesButton, .filterPlace,  .buttonSeason  {
+=======
+
+.orden, .stylesButton, .filterPlace, .buttonSeason {
+>>>>>>> 3e426fa86a4aef4005b2428ee872e1f668e5fd5c
     background-color: #02297b;
     border: none;
     color: lightgray;
@@ -132,7 +137,11 @@ header nav ul{
     margin-left: 2em;
     display: none;
     font-family: Bangers;
+<<<<<<< HEAD
     font-size: 16px;
+=======
+    font-size: 16px;  
+>>>>>>> 3e426fa86a4aef4005b2428ee872e1f668e5fd5c
 }
 
 /*Personajes con datos e imágenes*/
